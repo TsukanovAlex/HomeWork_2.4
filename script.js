@@ -35,7 +35,8 @@ for(let key in obj){
 
 let n = 1000;
 do {console.log(n);
-    n = n/2;
+    n /= 2;
 } while (n > 50);
 let num = 5;
+
 
