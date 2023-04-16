@@ -31,3 +31,11 @@ for(let key in obj){
     console.log(`${key} - зарплата ${obj[key]} долларов.`)
 }  
 
+//Задание №5
+
+let n = 1000;
+do {console.log(n);
+    n = n/2;
+} while (n > 50);
+let num = 5;
+
