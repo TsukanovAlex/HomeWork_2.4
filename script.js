@@ -34,13 +34,19 @@ for(let key in obj){
 //Задание №5
 
 let n = 1000;
-do {console.log(n);
-    n /= 2;
-} while (n > 50);
-let num = 5;
+let num = 0;
+
+while (n >= 50) {
+n /=2;
+num ++
+}
+console.log(n);
+console.log(num);
+
 
 // Задание №6
 
 for(let friday = 2; friday <= 31; friday +=7){
     console.log (`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`)
 }
+
